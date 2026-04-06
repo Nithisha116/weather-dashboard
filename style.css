@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background: url("https://p0.piqsels.com/preview/786/53/82/4k-wallpaper-atmosphere-cloudiness-clouds.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin-top: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.card {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: yellow;
+  margin-top: 10px;
+}
+
+#backBtn {
+  margin-top: 15px;
+  padding: 10px;
+  cursor: pointer;
+}

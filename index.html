@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🌤 Weather Dashboard</h1>
+
+  <!-- SEARCH BOX -->
+  <div class="search-box" id="searchBox">
+    <input type="text" id="city" placeholder="Enter city (e.g., Hyderabad)">
+    <button onclick="getWeather()">Search</button>
+  </div>
+
+  <!-- LOADING -->
+  <div id="loading" class="hidden">⏳ Loading...</div>
+
+  <!-- WEATHER CARD -->
+  <div id="weatherCard" class="card hidden">
+    <h2 id="cityName"></h2>
+    <img id="weatherIcon" />
+    <p id="temp"></p>
+    <p id="desc"></p>
+    <p id="extra"></p>
+  </div>
+
+  <!-- SEARCH AGAIN BUTTON -->
+  <button id="backBtn" class="hidden" onclick="showSearch()">Search Again</button>
+
+  <p id="error" class="error"></p>
+</div>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
